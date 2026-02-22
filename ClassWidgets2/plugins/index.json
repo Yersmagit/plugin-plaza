@@ -1,21 +1,26 @@
 {
   "metadata": {
-    "generated_at": "2026-02-22T09:19:03.206365",
+    "generated_at": "2026-02-22T09:56:39.714993",
     "manifest_directory": "/home/runner/work/plugin-plaza/plugin-plaza/ClassWidgets2/plugins/manifest",
-    "total_files_scanned": 4,
+    "total_files_scanned": 5,
     "generator_version": "1.0.0"
   },
   "statistics": {
-    "total_plugins": 4,
+    "total_plugins": 5,
     "total_errors": 0,
-    "unique_authors": ["LaoShui", "RinLit"],
+    "unique_authors": [
+      "IsHPDuwu",
+      "LaoShui",
+      "RinLit"
+    ],
     "version_distribution": {
-      "1.0.0": 3,
+      "1.0.0": 4,
       "1.0.2": 1
     },
     "tag_distribution": {
       "tools": 4,
       "classroom_environment": 2,
+      "tts": 1,
       "Information": 1,
       "utility": 1,
       "widget": 1,
@@ -24,6 +29,24 @@
     }
   },
   "plugins": [
+    {
+      "id": "com.hpdnya.tts",
+      "name": "TTS 服务",
+      "version": "1.0.0",
+      "api_version": ">=0.3.2",
+      "description": "为通知提供 TTS 服务",
+      "author": "IsHPDuwu",
+      "url": "https://github.com/IsHPDuwu/cw2p-com.ishpdnya.tts",
+      "branch": "main",
+      "readme": "README.md",
+      "icon": "icon.png",
+      "tags": [
+        "tts"
+      ],
+      "_file_path": "com.hpdnya.tts.json",
+      "_file_size": 329,
+      "_modified_time": "2026-02-22T09:56:30.480336"
+    },
     {
       "id": "com.laoshui.voicehub",
       "name": "VoiceHub 广播站排期",
@@ -35,10 +58,14 @@
       "branch": "master",
       "readme": "README.md",
       "icon": "icon.png",
-      "tags": ["classroom_environment", "tools", "Information"],
+      "tags": [
+        "classroom_environment",
+        "tools",
+        "Information"
+      ],
       "_file_path": "com.laoshui.voicehub.json",
-      "_file_size": 482,
-      "_modified_time": "2026-02-22T09:19:02.616816"
+      "_file_size": 431,
+      "_modified_time": "2026-02-22T09:56:24.227332"
     },
     {
       "id": "com.laoshui.yiyan",
@@ -51,10 +78,13 @@
       "branch": "master",
       "readme": "README.md",
       "icon": "icon.png",
-      "tags": ["classroom_environment", "tools"],
+      "tags": [
+        "classroom_environment",
+        "tools"
+      ],
       "_file_path": "com.laoshui.yiyan.json",
-      "_file_size": 417,
-      "_modified_time": "2026-02-22T09:19:02.157816"
+      "_file_size": 374,
+      "_modified_time": "2026-02-22T09:56:24.227332"
     },
     {
       "id": "com.rinlit.countdowndays",
@@ -67,10 +97,15 @@
       "branch": "master",
       "readme": "README.md",
       "icon": "icon.png",
-      "tags": ["tools", "utility", "widget", "reminder"],
+      "tags": [
+        "tools",
+        "utility",
+        "widget",
+        "reminder"
+      ],
       "_file_path": "com.rinlit.countdowndays.json",
-      "_file_size": 491,
-      "_modified_time": "2026-02-22T09:19:01.605816"
+      "_file_size": 432,
+      "_modified_time": "2026-02-22T09:56:24.227332"
     },
     {
       "id": "com.rinlit.test",
@@ -83,10 +118,13 @@
       "branch": "master",
       "readme": "README.md",
       "icon": "icon.png",
-      "tags": ["example", "tools"],
+      "tags": [
+        "example",
+        "tools"
+      ],
       "_file_path": "com.rinlit.test.json",
-      "_file_size": 373,
-      "_modified_time": "2026-02-22T09:19:03.132816"
+      "_file_size": 330,
+      "_modified_time": "2026-02-22T09:56:24.227332"
     }
   ],
   "errors": []
