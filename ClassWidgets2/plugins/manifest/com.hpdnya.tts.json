@@ -9,7 +9,5 @@
   "branch": "main",
   "readme": "README.md",
   "icon": "icon.png",
-  "tags": [
-    "tts"
-  ]
+  "tags": ["tts"]
 }
